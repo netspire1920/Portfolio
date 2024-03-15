@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    height: 100%;
+    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/947/386/desktop-wallpaper-7-blue-light.jpg);
+    background-size: cover;
+
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 25px;
+    color: white;
+    height: 13%;
+}
+
+
+.nav-part1{
+    align-items: center;
+    padding-left:70px;  
+}
+
+.nav-part2{
+
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    background: #000;
+    padding: 0 30px;
+    padding-right: 70px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.nav-part2 h2{
+    font-size: 22px;
+    font-weight: 100;
+    padding: 15px 0px;
+    cursor: pointer;
+}
+
+
+
+
+.intro{
+
+    width: 100%;
+    height: calc(100% - 13%);
+    display: flex;
+
+}
+
+.intro-left{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.intro-text{
+    width:100%;
+    padding-left: 60px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.intro-text h2{
+    font-size: 64px;
+    letter-spacing: -5px;
+    line-height: 65px;
+}
+
+.intro-text h1{
+    font-size: 93px;
+    line-height: 65px;
+}
+
+.intro-text p{
+    font-size: 24px;
+}
+
+.intro-text button{
+  background: #5E5DF0;
+  border-radius: 999px;
+  box-shadow: #5E5DF0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  font-family: Inter,Helvetica,"Apple Color Emoji","Segoe UI Emoji",NotoColorEmoji,"Noto Color Emoji","Segoe UI Symbol","Android Emoji",EmojiSymbols,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans",sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-top: 20px;
+}
+
+.intro-text button:hover{
+    background-color: #5022f7;
+}
+
+
+.intro-right{
+    width: 50%;
+    height: 100%;
+
+}
+
+.services{
+    width: 100%;
+    height: 100%;
+    background: rgb(2, 0, 0);
+}
+
+
+.intersect{
+    background-color: #5E5DF0;
+    width: 100%;
+    height: 5px;
+    box-shadow: #5E5DF0 0px -0px 20px 5px;
+    position: relative;
+    top: -5px;
+}
+
+
+
+
+
+
+.active{
+    color: #5E5DF0;
+    text-decoration: underline ;
+    text-underline-offset: 10px;
+}
+
+.theme{
+    color: #5E5DF0;
+    font-family: cursive;
+}
