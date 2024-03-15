@@ -1,2 +1,0 @@
-# Portfolio
-Jay Bhatade portfolio
