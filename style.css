@@ -1,23 +1,25 @@
 *{
-    margin: 0px;
     padding: 0px;
+    margin: 0px;
     box-sizing: border-box;
 }
 
-html, body{
-    width: 100%;
+html ,body{
     height: 100%;
+    width: 100%;
+    background: #000;
 }
 
-#main{
+.page1{
     width: 100%;
     height: 100vh;
-    background-image: url(https://e1.pxfuel.com/desktop-wallpaper/947/386/desktop-wallpaper-7-blue-light.jpg);
-    background-size: cover;
+    background-color: #000;
 
 }
 
 .navbar{
+
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -52,8 +54,10 @@ html, body{
     cursor: pointer;
 }
 
-
-
+.nav-part2 a{
+    text-decoration: none;
+    color: white;
+}
 
 .intro{
 
@@ -125,28 +129,11 @@ html, body{
     width: 50%;
     height: 100%;
 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
 }
-
-.services{
-    width: 100%;
-    height: 100%;
-    background: rgb(2, 0, 0);
-}
-
-
-.intersect{
-    background-color: #5E5DF0;
-    width: 100%;
-    height: 5px;
-    box-shadow: #5E5DF0 0px -0px 20px 5px;
-    position: relative;
-    top: -5px;
-}
-
-
-
-
-
 
 .active{
     color: #5E5DF0;
@@ -157,4 +144,33 @@ html, body{
 .theme{
     color: #5E5DF0;
     font-family: cursive;
+}
+
+
+
+
+
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(0, 113, 219);
+    display: flex;
+
+}
+
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(4, 0, 255);
+    display: flex;
+
+}
+
+
+.page:nth-child(2){
+    background-color: rgb(0, 163, 163);
+}
+
+.page:nth-child(3){
+    background-color: rgb(3, 129, 129);
 }
