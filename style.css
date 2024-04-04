@@ -11,7 +11,7 @@ html, body{
 
 #main{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     background-image: url(https://e1.pxfuel.com/desktop-wallpaper/947/386/desktop-wallpaper-7-blue-light.jpg);
     background-size: cover;
 
