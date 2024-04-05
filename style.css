@@ -8,7 +8,7 @@
   body {
     height: 100%;
     width: 100%;
-    background: #000;
+    background: #ef1616;
   }
   
   .page1 {
@@ -39,7 +39,6 @@
     align-items: center;
     gap: 60px;
   
-  
     padding-right: 60px;
   
   }
@@ -58,8 +57,9 @@
   
   .intro {
     width: 100%;
-    height: calc(100% - 13%);
+    height: 100vh;
     display: flex;
+    flex-direction: row;
   }
   
   .intro-left {
@@ -155,13 +155,7 @@
     display: flex;
   }
   
-  .page:nth-child(2) {
-    background-color: rgb(0, 163, 163);
-  }
-  
-  .page:nth-child(3) {
-    background-color: rgb(3, 129, 129);
-  }
+
   
 
   
