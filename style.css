@@ -1,161 +1,180 @@
 * {
-    padding: 0px;
-    margin: 0px;
-    box-sizing: border-box;
-  }
-  
-  html,
-  body {
-    height: 100%;
-    width: 100%;
-    background: #ef1616;
-  }
-  
-  .page1 {
-    width: 100%;
-    height: calc(100% - 13%);
-    background-color: #000;
-  }
-  
-  .navbar {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding-top: 25px;
-    color: white;
-    height: 13%;
-    position: relative;
-  }
-  
-  .nav-part1 {
-    align-items: center;
-    padding-left: 60px;
-  }
-  
-  .nav-part2 {
-    display: flex;
-    align-items: center;
-    gap: 60px;
-  
-    padding-right: 60px;
-  
-  }
-  
-  .nav-part2 h2 {
-    font-size: 22px;
-    font-weight: 100;
-    padding: 15px 0px;
-    cursor: pointer;
-  }
-  
-  .nav-part2 a {
-    text-decoration: none;
-    color: white;
-  }
-  
-  .intro {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-direction: row;
-  }
-  
-  .intro-left {
-    width: 50%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-  }
-  
-  .intro-text {
-    width: 100%;
-    padding-left: 60px;
-    color: white;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  
-  .intro-text h2 {
-    font-size: 64px;
-    letter-spacing: -5px;
-    line-height: 65px;
-  }
-  
-  .intro-text h1 {
-    font-size: 93px;
-    line-height: 65px;
-  }
-  
-  .intro-text p {
-    font-size: 24px;
-  }
-  
-  .intro-text button {
-    background: #5e5df0;
-    border-radius: 999px;
-    box-shadow: #5e5df0 0 10px 20px -10px;
-    box-sizing: border-box;
-    color: #ffffff;
-    cursor: pointer;
-    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
-      NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
-      EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
-      "Noto Sans", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    opacity: 1;
-    outline: 0 solid transparent;
-    padding: 8px 18px;
-    user-select: none;
-    -webkit-user-select: none;
-    touch-action: manipulation;
-    width: fit-content;
-    word-break: break-word;
-    border: 0;
-    margin-top: 20px;
-  }
-  
-  .intro-text button:hover {
-    background-color: #5022f7;
-  }
-  
-  .intro-right {
-    width: 50%;
-    height: 100%;
-  
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  .active {
-    color: #5e5df0;
-    text-decoration: underline;
-    text-underline-offset: 10px;
-  }
-  
-  .theme {
-    color: #5e5df0;
-    font-family: cursive;
-  }
-  
-  .page2 {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(0, 113, 219);
-    display: flex;
-  }
-  
-  .page3 {
-    width: 100%;
-    height: 100vh;
-    background-color: rgb(4, 0, 255);
-    display: flex;
-  }
-  
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
 
-  
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background: #000000;
+}
 
-  
+.page1 {
+  width: 100%;
+  height: 100vh;
+  background-color: #000;
+}
+
+.navbar {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-top: 25px;
+  color: white;
+  height: 13%;
+  position: relative;
+}
+
+.nav-part1 {
+  align-items: center;
+  padding-left: 60px;
+}
+
+.nav-part2 {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+
+  padding-right: 60px;
+
+}
+
+.nav-part2 h2 {
+  font-size: 22px;
+  font-weight: 100;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+
+.nav-part2 a {
+  text-decoration: none;
+  color: white;
+}
+
+.intro {
+  width: 100%;
+  height: calc(100% - 13%);
+  display: flex;
+  flex-direction: row;
+}
+
+.intro-left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.intro-text {
+  width: 100%;
+  padding-left: 60px;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.intro-text h2 {
+  font-size: 64px;
+  letter-spacing: -5px;
+  line-height: 65px;
+}
+
+.intro-text h1 {
+  font-size: 93px;
+  line-height: 65px;
+}
+
+.intro-text p {
+  font-size: 24px;
+}
+
+.intro-text button {
+  background: #5e5df0;
+  border-radius: 999px;
+  box-shadow: #5e5df0 0 10px 20px -10px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji",
+    NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji",
+    EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue",
+    "Noto Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 24px;
+  opacity: 1;
+  outline: 0 solid transparent;
+  padding: 8px 18px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  word-break: break-word;
+  border: 0;
+  margin-top: 20px;
+}
+
+.intro-text button:hover {
+  background-color: #5022f7;
+}
+
+.intro-right {
+  width: 50%;
+  height: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.active {
+  color: #5e5df0;
+  text-decoration: underline;
+  text-underline-offset: 10px;
+  font-weight: 900;
+}
+
+.theme {
+  color: #5e5df0;
+  font-family: cursive;
+}
+
+.page2 {
+  width: 100%;
+  height: 100vh;
+  /* background-color: rgb(66, 66, 66); */
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.left2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right2{
+  width: 50%;
+  height: 100%;
+  display: flex;
+  padding: 60px  20px;
+  color: white;
+}
+
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(4, 0, 255);
+  display: flex;
+}
+
+
+
+
