@@ -13,7 +13,7 @@
   
   .page1 {
     width: 100%;
-    height: 100vh;
+    height: calc(100% - 13%);
     background-color: #000;
   }
   
