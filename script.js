@@ -1,4 +1,10 @@
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true
-});
+const locoScroll = new LocomotiveScroll({
+    el: document.querySelector(".smooth-scroll"),
+    smooth: true,
+    mobile: {
+       smooth: true
+   },
+   tablet: {
+       smooth: true
+   }
+  });
