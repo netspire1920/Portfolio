@@ -40,7 +40,6 @@ body {
   gap: 60px;
 
   padding-right: 60px;
-
 }
 
 .nav-part2 h2 {
@@ -149,10 +148,9 @@ body {
   color: white;
   display: flex;
   flex-direction: row;
-
 }
 
-.left2{
+.left2 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -160,7 +158,7 @@ body {
   justify-content: center;
 }
 
-.right2{
+.right2 {
   width: 50%;
   height: 100%;
   display: flex;
@@ -170,31 +168,103 @@ body {
   color: white;
 }
 
-.right2-text{
+.right2-text {
   display: flex;
   flex-direction: column;
-  gap:  80px;
+  gap: 80px;
   /* background: #ff1212; */
 }
 
-.right2-text h2{
+.right2-text h2 {
   /* background-color: #5022f7; */
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 65px;
-  transform: translate(0,-50%);
+  transform: translate(0, -50%);
   transition: ease-in-out;
 }
 
-.right2-text h2:hover{
+.right2-text h2:hover {
   color: #dfdfdf69;
+}
 
+.page3 {
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .rect {
+  height: auto;
+  width: 80%;
+  background-color: rgb(14, 14, 14);
+  border-radius: 12px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  box-shadow: #5e5df0 0px 3px 6px, #5e5df0 0px 3px 6px;
+}
+
+.rect img {
+  border-radius: 10px;
+  width: 18%;
+}
+
+.rect-right {
+  height: 140px;
+  width: 82%;
+  display: flex;
+  background: #ff0404;
+  flex-direction: column;
+  margin-left: 15px;
+}
+
+.rect-right .header {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  background: #016172;
+  font-size: 2vw;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
+
+.css-png{
+  position: absolute;
+  top: 1350px;
+  left: 20px;
+
+}
+
+.css-png img{
+  width: 200px;
+  rotate:  30deg;
+}
+
+.html-png{
+  position: absolute;
+  top: 1580px;
+  left: 78%;
+
+}
+
+.html-png img{
+  width: 250px;
+  rotate:  30deg;
+}
+
+.about-me{
+  color: #5e5df0;
+  font-size: 75px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 
 
-
-.page3 {
+.page4{
   width: 100%;
   height: 100vh;
   background-color: rgb(0, 0, 0);
@@ -206,7 +276,7 @@ body {
 .pg3-grid{
   width: 100%;
   height: 100%;
-  background-color: aquamarine;
+  background-color: rgb(0, 0, 0);
   display: flex;
   align-items: center;
   justify-content:space-evenly;
