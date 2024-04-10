@@ -11,7 +11,7 @@ body {
   background: #000;
 }
 
-.page1 {
+#page1 {
   width: 100%;
   height: 100vh;
   background-color: #000;
@@ -141,7 +141,7 @@ body {
   font-family: cursive;
 }
 
-.page2 {
+#page2 {
   width: 100%;
   height: 100vh;
   /* background-color: rgb(66, 66, 66); */
@@ -187,7 +187,7 @@ body {
   color: #dfdfdf69;
 }
 
-.page3 {
+#page3 {
   width: 100%;
   height: 100vh;
   background-color: rgb(0, 0, 0);
@@ -241,7 +241,7 @@ body {
 
 
 
-.page4{
+#page4{
   width: 100%;
   height: 100vh;
   background-color: rgb(0, 0, 0);
@@ -272,7 +272,10 @@ body {
   display: flex;
   flex-direction: column;
   align-items: start;
-  justify-content:space-evenly;
+  padding-top: 50PX;
+  gap: 80PX;
+  justify-content:start;
+
 }
 
 .pg4-grid .row{
@@ -282,6 +285,7 @@ body {
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
+
 }
 
 /*works janky on mobile :<*/
@@ -636,4 +640,14 @@ body {
   user-select: none;
    /* Non-prefixed version, currently
 									supported by Chrome, Edge, Opera and Firefox */
+}
+
+
+
+
+
+#page5{
+  width: 100%;
+  height: 100vh;
+  
 }
