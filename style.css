@@ -52,8 +52,12 @@ body {
 .nav-part2 a {
   text-decoration: none;
   color: white;
+  transition: color 0.3s ease;
 }
 
+.nav-part2 a:hover {
+  color: #5e5df0;
+}
 .intro {
   width: 100%;
   height: calc(100% - 13%);
